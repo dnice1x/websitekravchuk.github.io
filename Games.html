@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список ігор</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .game-card {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 15px;
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+        }
+        .game-info {
+            flex: 1;
+            min-width: 250px;
+        }
+        .game-info h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .game-video {
+            flex: 1;
+            min-width: 250px;
+        }
+        iframe {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 768px) {
+            .game-card {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+        </head>
+        <body>
+            <div class="header">
+                <a href="index.html">Головна сторінка</a>
+                <a href="Games.html">Ігри</a>
+                <a href="Community.html">Спільнота</a>
+                <a href="info.html">Інформація</a>
+                <a href="support.html">Підтримка</a>
+            </div>
+        </head>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Список ігор</h1>
+        <p>Тут ви знайдете список доступних ігор.</p>
+
+        <div class="game-card">
+            <div class="game-info">
+                <h2>Apex Legends</h2>
+                <p>Відеогра жанру королівської битви, розроблена компанією Respawn Entertainment та видана Electronic Arts.</p>
+            </div>
+            <video width="640" height="360" controls>
+                <source src="video/Apex Legends Review (2021).mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="game-card">
+            <div class="game-info">
+                <h2>Kingdom Come: Deliverance II</h2>
+                <p>Динамічна рольова гра з багатим сюжетом, події якої розгортаються у Європі 15 століття.</p>
+            </div>
+            <video width="640" height="360" controls>
+                <source src="video/Kingdom Come_ Deliverance 2 Review.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="game-card">
+            <div class="game-info">
+                <h2>Tides of Annihilation</h2>
+                <p>Фентезійний пригодницький екшен, де ви розкриваєте таємницю вторгнення у зруйнованому Лондоні.</p>
+            </div>
+            <video width="640" height="360" controls>
+                <source src="video/Tides of Annihilation - Official Reveal Trailer _ State of Play 2025.mp4" type="video/mp4">
+            </video>
+        </div>
+</body>
+</html>

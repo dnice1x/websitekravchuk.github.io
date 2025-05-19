@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Підтримка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #333;
+        }
+        .contact-info, .faq, .feedback-form {
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .contact-info p, .faq p {
+            font-size: 1.1em;
+        }
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+        .faq ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .faq li {
+            margin-bottom: 10px;
+        }
+        .feedback-form input, .feedback-form select, .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .feedback-form button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .feedback-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+        </head>
+        <body>
+            <div class="header">
+                <a href="index.html">Головна сторінка</a>
+                <a href="Games.html">Ігри</a>
+                <a href="Community.html">Спільнота</a>
+                <a href="info.html">Інформація</a>
+                <a href="support.html">Підтримка</a>
+            </div>
+        </head>
+</head>
+<body>
+    <div class="container">
+        <div class="section contact-info">
+            <h2>Контактні канали</h2>
+            <p><strong>Телефон:</strong> +380 XX XXX XXXX</p>
+            <p><strong>Електронна пошта:</strong> <a href="mailto:support@yourgame.com">support@yourgame.com</a></p>
+            <p><strong>Чат з оператором:</strong> (Онлайн підтримка через чат)</p>
+        </div>
+
+        <div class="section faq">
+            <h2>FAQ — Часто задавані питання</h2>
+            <ul>
+                <li><strong>Як відновити забутий пароль?</strong> Щоб відновити пароль, перейдіть на сторінку відновлення пароля та введіть свою електронну адресу. Ви отримаєте інструкції на вказану пошту.</li>
+                <li><strong>Як змінити налаштування облікового запису?</strong> Щоб змінити налаштування, зайдіть в "Мій обліковий запис" і перейдіть до розділу налаштувань.</li>
+                <li><strong>Я не можу здійснити покупку — що робити?</strong> Перевірте, чи правильно введено платіжні реквізити та чи є достатньо коштів на картці. Якщо проблема не зникла, зв'яжіться з нашою підтримкою.</li>
+            </ul>
+        </div>
+
+        <div class="section feedback-form">
+            <h2>Форма зворотного зв'язку</h2>
+            <form action="#">
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="topic">Тема:</label>
+                <select id="topic" name="topic">
+                    <option value="account">Проблеми з обліковим записом</option>
+                    <option value="technical">Технічні проблеми</option>
+                    <option value="other">Інше</option>
+                </select>
+
+                <label for="message">Повідомлення:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Відправити</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
